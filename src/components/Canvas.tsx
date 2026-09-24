@@ -69,12 +69,12 @@ export function Canvas({
   return (
     <div
       ref={containerRef}
-      className="absolute inset-0 touch-none select-none overflow-hidden bg-slate-100"
+      className="absolute inset-0 touch-none select-none overflow-hidden bg-zinc-900"
       style={{
         cursor,
         backgroundImage:
-          'linear-gradient(to right, rgba(100, 116, 139, 0.18) 1px, transparent 1px), ' +
-          'linear-gradient(to bottom, rgba(100, 116, 139, 0.18) 1px, transparent 1px)',
+          'linear-gradient(to right, rgba(161, 161, 170, 0.14) 1px, transparent 1px), ' +
+          'linear-gradient(to bottom, rgba(161, 161, 170, 0.14) 1px, transparent 1px)',
         backgroundSize: `${GRID_SIZE * viewport.zoom}px ${GRID_SIZE * viewport.zoom}px`,
         backgroundPosition: `${viewport.offsetX}px ${viewport.offsetY}px`,
       }}

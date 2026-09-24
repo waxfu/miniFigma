@@ -80,7 +80,7 @@ export default function App() {
       : cursor
 
   return (
-    <div className="fixed inset-0 overflow-hidden bg-slate-100 text-slate-900">
+    <div className="fixed inset-0 overflow-hidden bg-zinc-900 text-zinc-100">
       <Canvas
         viewport={viewport}
         cursor={canvasCursor}
